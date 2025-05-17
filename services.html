@@ -1,36 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - US TechTitans</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | US TechTitans</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="assets/images/logo.png">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <img src="logo.png" alt="US TechTitans Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-gray-900 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <img src="assets/images/logo.png" alt="US TechTitans Logo" class="h-12">
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="about.html" class="hover:text-blue-400">About</a>
+        <a href="services.html" class="hover:text-blue-400">Services</a>
+        <a href="contact.html" class="hover:text-blue-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl font-bold text-center mb-12">Our Services</h1>
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <!-- Service 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="https://source.unsplash.com/100x100/?web,code" class="mx-auto mb-4 rounded-full" alt="Web Development">
+          <h3 class="text-xl font-semibold mb-2">Custom Web Development</h3>
+          <p>We build fast, secure, and scalable web apps tailored to your business needs.</p>
         </div>
-    </header>
-    <section class="hero">
-        <div class="container">
-            <h1>Our Services</h1>
-            <p>From web apps to AI, we offer innovative tech solutions.</p>
+
+        <!-- Service 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="https://source.unsplash.com/100x100/?cloud,server" class="mx-auto mb-4 rounded-full" alt="Cloud Solutions">
+          <h3 class="text-xl font-semibold mb-2">Cloud Infrastructure</h3>
+          <p>We design and deploy robust cloud solutions for modern business environments.</p>
         </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 US TechTitans. All rights reserved.</p>
+
+        <!-- Service 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="https://source.unsplash.com/100x100/?ai,robotics" class="mx-auto mb-4 rounded-full" alt="AI Integration">
+          <h3 class="text-xl font-semibold mb-2">AI & Automation</h3>
+          <p>Integrate AI and automation into your workflows to boost efficiency and insight.</p>
         </div>
-    </footer>
+
+        <!-- Service 4 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="https://source.unsplash.com/100x100/?mobile,apps" class="mx-auto mb-4 rounded-full" alt="Mobile Apps">
+          <h3 class="text-xl font-semibold mb-2">Mobile App Development</h3>
+          <p>From concept to launch, we create intuitive and high-performance mobile apps.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="https://source.unsplash.com/100x100/?database,analytics" class="mx-auto mb-4 rounded-full" alt="Data Analytics">
+          <h3 class="text-xl font-semibold mb-2">Data Analytics</h3>
+          <p>Make data-driven decisions with our advanced analytics and reporting tools.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="https://source.unsplash.com/100x100/?devops,technology" class="mx-auto mb-4 rounded-full" alt="DevOps">
+          <h3 class="text-xl font-semibold mb-2">DevOps & CI/CD</h3>
+          <p>Accelerate development with seamless CI/CD pipelines and DevOps practices.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 US TechTitans. All rights reserved.</p>
+  </footer>
 </body>
 </html>
